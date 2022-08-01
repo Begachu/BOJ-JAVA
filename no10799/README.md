@@ -1,12 +1,10 @@
 # 문제 설명
 
----
 
 문제 링크는 [여기](https://www.acmicpc.net/problem/10799)를 눌러주세요!
 
 [10799번: 쇠막대기](https://www.acmicpc.net/problem/10799)
 
----
 
 ![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cb8cc811-b203-40a6-955e-5c4b84d5627b/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220801%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220801T142051Z&X-Amz-Expires=86400&X-Amz-Signature=015f85fb2a8b3cf54b2520330f010fcb6930b239b085780028f89389bc1b42c7&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
@@ -16,7 +14,6 @@
 
 # 접근
 
----
 
 처음에는 Stack을 이용해서 여는 괄호는 Stack에 저장,  닫는 괄호가 나올 때 Stack의 길이-1만큼 더해주는 식으로 답을 구하고자 했다.
 
@@ -106,7 +103,6 @@
 
 # 소스코드
 
----
 
 최종 코드는 다음과 같다.
 
@@ -146,7 +142,6 @@ public class Main {
 
 # 결과
 
----
 
 제출 결과는 다음과 같았다.
 
@@ -154,7 +149,6 @@ public class Main {
 
 # 고찰
 
----
 
 문제를 좀 더 분석한 후에 코드를 짜야겠다는 생각이 들었다.
 
